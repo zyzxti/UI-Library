@@ -667,7 +667,7 @@ function CreateNewButton(ButtonConfig, Parent)
 
 	local Button = Objects.new("SmoothButton")
 	Button.Name = "Button"
-	Button.Size = UDim2.fromScale(1,0) + UDim2.fromOffset(0,30)
+	Button.Size = UDim2.fromScale(2,0) + UDim2.fromOffset(0,30)
 	Button.ImageColor3 = ThisTheme.Button
 	Button.ImageTransparency = 1
 	Button.Parent = Parent
